@@ -1,0 +1,27 @@
+
+Matrix M:   row: 256,  col: 512.
+Matrix N:   row: 512,  col: 1024.
+CPU: 3.25388 sec
+  grid  dim:  64, 16, 1.
+  block dim: 16, 16, 1.
+  kernel time: 0.00021 sec
+GPU: 0.84916 sec
+GPU all values correct
+
+Matrix M:   row: 100,  col: 200.
+Matrix N:   row: 200,  col: 300.
+CPU: 0.08408 sec
+  grid  dim:  19, 7, 1.
+  block dim: 16, 16, 1.
+  kernel time: 0.00009 sec
+GPU: 0.79879 sec
+GPU all values correct
+
+Matrix M:   row: 123,  col: 456.
+Matrix N:   row: 456,  col: 789.
+CPU: 0.75836 sec
+  grid  dim:  50, 8, 1.
+  block dim: 16, 16, 1.
+  kernel time: 0.00014 sec
+GPU: 0.79168 sec
+GPU all values correct
